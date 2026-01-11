@@ -7,9 +7,9 @@ export default function Footer() {
 
     const footerLinks = {
         empresa: [
-            { label: 'Quienes somos', href: '#quienes-somos' },
-            { label: 'Propiedades', href: '#propiedades' },
-            { label: 'Contacto', href: '#contacto' },
+            { label: 'Quienes somos', href: 'nosotros' },
+            { label: 'Propiedades', href: 'propiedades' },
+            { label: 'Contacto', href: 'contacto' },
         ],
         servicios: [
             { label: 'Comprar', href: '#comprar' },

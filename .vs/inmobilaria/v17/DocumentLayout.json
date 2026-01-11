@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\somebody\\Desktop\\inmobilaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\somebody\\Desktop\\inmobilaria\\src\\app\\layout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\layout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\somebody\\Desktop\\inmobilaria\\src\\app\\components\\Header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\Header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\somebody\\Desktop\\inmobilaria\\src\\app\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\somebody\\Desktop\\inmobilaria\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "layout.js",
-              "DocumentMoniker": "C:\\Users\\somebody\\Desktop\\inmobilaria\\src\\app\\layout.js",
-              "RelativeDocumentMoniker": "src\\app\\layout.js",
-              "ToolTip": "C:\\Users\\somebody\\Desktop\\inmobilaria\\src\\app\\layout.js",
-              "RelativeToolTip": "src\\app\\layout.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-07T21:41:05.592Z",
+              "Title": "Header.jsx",
+              "DocumentMoniker": "C:\\Users\\somebody\\Desktop\\inmobilaria\\src\\app\\components\\Header.jsx",
+              "RelativeDocumentMoniker": "src\\app\\components\\Header.jsx",
+              "ToolTip": "C:\\Users\\somebody\\Desktop\\inmobilaria\\src\\app\\components\\Header.jsx",
+              "RelativeToolTip": "src\\app\\components\\Header.jsx",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-01-11T14:00:13.634Z",
               "EditorCaption": ""
             },
             {
@@ -52,19 +48,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-01-07T21:41:02.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\somebody\\Desktop\\inmobilaria\\package.json",
-              "RelativeDocumentMoniker": "package.json",
-              "ToolTip": "C:\\Users\\somebody\\Desktop\\inmobilaria\\package.json",
-              "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-07T21:38:23.271Z",
               "EditorCaption": ""
             }
           ]

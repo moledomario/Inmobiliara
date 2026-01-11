@@ -36,6 +36,10 @@ export default function Header() {
         ? "hover:text-cyan-400"
         : (isWhitePage ? "hover:text-blue-600" : "hover:text-cyan-400");
 
+    const activeTextColor = isScrolled
+        ? "text-cyan-400"
+        : (isWhitePage ? "text-blue-600" : "text-cyan-400");
+
     const accentBg = isScrolled
         ? "bg-cyan-400"
         : (isWhitePage ? "bg-blue-600" : "bg-cyan-400");
@@ -64,16 +68,19 @@ export default function Header() {
 
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center gap-8">
-                        {navLinks.map((link) => (
-                            <a
-                                key={link.href}
-                                href={link.href}
-                                className={`${textColor} ${hoverColor} transition-colors font-medium relative group`}
-                            >
-                                {link.label}
-                                <span className={`absolute bottom-0 left-0 w-0 h-0.5 ${accentBg} group-hover:w-full transition-all duration-300`}></span>
-                            </a>
-                        ))}
+                        {navLinks.map((link) => {
+                            const isActive = pathname === link.href;
+                            return (
+                                <a
+                                    key={link.href}
+                                    href={link.href}
+                                    className={`${textColor} ${hoverColor} transition-colors font-medium relative group`}
+                                >
+                                    {link.label}
+                                    <span className={`absolute bottom-0 left-0 h-0.5 ${accentBg} transition-all duration-300 ${isActive ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
+                                </a>
+                            );
+                        })}
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -98,16 +105,19 @@ export default function Header() {
                 {isMobileMenuOpen && (
                     <div className="md:hidden bg-gray-900 border-t border-cyan-500/20 animate-fade-in shadow-2xl">
                         <div className="py-6 flex flex-col gap-4">
-                            {navLinks.map((link) => (
-                                <a
-                                    key={link.href}
-                                    href={link.href}
-                                    className="text-gray-100 hover:text-cyan-400 transition-colors font-medium py-2 px-4 hover:bg-gray-800 rounded mx-4"
-                                    onClick={() => setIsMobileMenuOpen(false)}
-                                >
-                                    {link.label}
-                                </a>
-                            ))}
+                            {navLinks.map((link) => {
+                                const isActive = pathname === link.href;
+                                return (
+                                    <a
+                                        key={link.href}
+                                        href={link.href}
+                                        className={`${isActive ? 'text-cyan-400 bg-gray-800' : 'text-gray-100'} hover:text-cyan-400 transition-colors font-medium py-2 px-4 hover:bg-gray-800 rounded mx-4`}
+                                        onClick={() => setIsMobileMenuOpen(false)}
+                                    >
+                                        {link.label}
+                                    </a>
+                                );
+                            })}
                         </div>
                     </div>
                 )}

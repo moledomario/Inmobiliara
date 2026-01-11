@@ -17,21 +17,21 @@ export default function ContactSection() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('Form submitted:', formData);
-        // Aqui iria la logica de envio
+        // Aquí iría la lógica de envío
     };
 
     const faqs = [
         {
-            question: 'Que documentos necesito para alquilar?',
-            answer: 'Necesitas DNI, comprobante de ingresos, garantia propietaria o seguro de caucion, y referencias personales.',
+            question: '¿Qué documentos necesito para alquilar?',
+            answer: 'Necesitas DNI, comprobante de ingresos, garantía propietaria o seguro de caución, y referencias personales.',
         },
         {
-            question: 'Como puedo agendar una visita?',
-            answer: 'Puedes agendar una visita llamandonos, enviando un email o usando nuestro formulario de contacto. Te responderemos en menos de 24 horas.',
+            question: '¿Cómo puedo agendar una visita?',
+            answer: 'Puedes agendar una visita llamándonos, enviando un email o usando nuestro formulario de contacto. Te responderemos en menos de 24 horas.',
         },
         {
-            question: 'Cual es la comision por venta?',
-            answer: 'Nuestra comision varia segun el tipo de propiedad y el valor de la transaccion. Contactanos para una cotizacion personalizada.',
+            question: '¿Cuál es la comisión por venta?',
+            answer: 'Nuestra comisión varía según el tipo de propiedad y el valor de la transacción. Contáctanos para una cotización personalizada.',
         },
     ];
 
@@ -49,10 +49,10 @@ export default function ContactSection() {
                 <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center px-4">
                         <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                            Contactanos
+                            Contáctanos
                         </h1>
                         <p className="text-lg md:text-xl text-gray-200 max-w-2xl">
-                            Estamos aqui para resolver tus dudas y ayudarte a encontrar la propiedad de tus suenos.
+                            Estamos aquí para resolver tus dudas y ayudarte a encontrar la propiedad de tus sueños.
                         </p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ export default function ContactSection() {
                     <div className="lg:col-span-2">
                         <div className="bg-white rounded-2xl shadow-lg p-8">
                             <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                                Envianos un mensaje
+                                Envíanos un mensaje
                             </h2>
                             <p className="text-gray-600 mb-8">
                                 Completa el formulario y nos pondremos en contacto contigo lo antes posible.
@@ -88,7 +88,7 @@ export default function ContactSection() {
 
                                     <div>
                                         <label className="block text-sm font-medium text-gray-900 mb-2">
-                                            Correo electronico
+                                            Correo electrónico
                                         </label>
                                         <input
                                             type="email"
@@ -104,7 +104,7 @@ export default function ContactSection() {
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <div>
                                         <label className="block text-sm font-medium text-gray-900 mb-2">
-                                            Telefono
+                                            Teléfono
                                         </label>
                                         <input
                                             type="tel"
@@ -126,11 +126,11 @@ export default function ContactSection() {
                                             required
                                             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all appearance-none bg-white"
                                         >
-                                            <option value="">Selecciona una opcion</option>
+                                            <option value="">Selecciona una opción</option>
                                             <option value="compra">Comprar propiedad</option>
                                             <option value="venta">Vender propiedad</option>
                                             <option value="alquiler">Alquilar propiedad</option>
-                                            <option value="general">Informacion general</option>
+                                            <option value="general">Información general</option>
                                         </select>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@ export default function ContactSection() {
                                         Mensaje
                                     </label>
                                     <textarea
-                                        placeholder="En que podemos ayudarte?"
+                                        placeholder="¿En qué podemos ayudarte?"
                                         value={formData.message}
                                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                                         required
@@ -158,7 +158,7 @@ export default function ContactSection() {
                                         className="mt-1 w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                                     />
                                     <label className="text-sm text-gray-600">
-                                        Acepto la politica de privacidad y el tratamiento de mis datos personales.
+                                        Acepto la política de privacidad y el tratamiento de mis datos personales.
                                     </label>
                                 </div>
 
@@ -217,9 +217,9 @@ export default function ContactSection() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-gray-900 mb-1">Escribenos</h3>
+                                    <h3 className="font-bold text-gray-900 mb-1">Escríbenos</h3>
                                     <p className="text-blue-600 font-medium mb-1">+34 912 345 678</p>
-                                    <p className="text-sm text-gray-500">Atencion inmediata</p>
+                                    <p className="text-sm text-gray-500">Atención inmediata</p>
                                 </div>
                             </div>
                         </div>
@@ -233,7 +233,7 @@ export default function ContactSection() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-gray-900 mb-1">Escribenos</h3>
+                                    <h3 className="font-bold text-gray-900 mb-1">Escríbenos</h3>
                                     <p className="text-blue-600 font-medium mb-1">info@inmobiliaria.com</p>
                                     <p className="text-sm text-gray-500">Respuesta en 24h</p>
                                 </div>
@@ -250,7 +250,7 @@ export default function ContactSection() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-gray-900 mb-1">Visitanos</h3>
+                                    <h3 className="font-bold text-gray-900 mb-1">Visítanos</h3>
                                     <p className="text-gray-700 font-medium mb-1">Av. Principal 123, Madrid</p>
                                     <p className="text-sm text-gray-500">Parking gratuito clientes</p>
                                 </div>
@@ -266,14 +266,14 @@ export default function ContactSection() {
                                     </svg>
                                 </div>
                                 <div className="w-full">
-                                    <h3 className="font-bold text-gray-900 mb-3">Horario de Atencion</h3>
+                                    <h3 className="font-bold text-gray-900 mb-3">Horario de Atención</h3>
                                     <div className="space-y-2 text-sm">
                                         <div className="flex justify-between">
                                             <span className="text-gray-600">Lun - Vie</span>
                                             <span className="text-gray-900 font-medium">9:00 - 18:00</span>
                                         </div>
                                         <div className="flex justify-between">
-                                            <span className="text-gray-600">Sabados</span>
+                                            <span className="text-gray-600">Sábados</span>
                                             <span className="text-gray-900 font-medium">10:00 - 14:00</span>
                                         </div>
                                     </div>
@@ -283,7 +283,7 @@ export default function ContactSection() {
 
                         {/* Social Media */}
                         <div className="bg-white rounded-2xl shadow-lg p-6">
-                            <h3 className="font-bold text-gray-900 mb-4">Siguenos en redes</h3>
+                            <h3 className="font-bold text-gray-900 mb-4">Síguenos en redes</h3>
                             <div className="flex gap-3">
                                 <a href="#" className="w-10 h-10 bg-gray-900 rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
                                     <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">

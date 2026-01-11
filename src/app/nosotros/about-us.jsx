@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 export default function AboutUs() {
     const router = useRouter();
     const stats = [
-        { number: '24+', label: 'Anos de Experiencia' },
+        { number: '24+', label: 'Años de Experiencia' },
         { number: '5k+', label: 'Propiedades Vendidas' },
         { number: '120', label: 'Agentes Expertos' },
         { number: '15', label: 'Premios Nacionales' },
@@ -18,7 +18,7 @@ export default function AboutUs() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
                 </svg>
             ),
-            title: 'Mision',
+            title: 'Misión',
             description: 'Facilitar el proceso de compra-venta con integridad y profesionalismo, asegurando que cada cliente encuentre su espacio ideal.',
         },
         {
@@ -28,8 +28,8 @@ export default function AboutUs() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                 </svg>
             ),
-            title: 'Vision',
-            description: 'Ser la agencia inmobiliaria de referencia nacional por nuestra calidad humana, innovacion tecnologica y resultados excepcionales.',
+            title: 'Visión',
+            description: 'Ser la agencia inmobiliaria de referencia nacional por nuestra calidad humana, innovación tecnológica y resultados excepcionales.',
         },
         {
             icon: (
@@ -38,15 +38,15 @@ export default function AboutUs() {
                 </svg>
             ),
             title: 'Valores',
-            description: 'Honestidad absoluta, compromiso con el cliente, innovacion constante y trabajo en equipo son los pilares de nuestra cultura.',
+            description: 'Honestidad absoluta, compromiso con el cliente, innovación constante y trabajo en equipo son los pilares de nuestra cultura.',
         },
     ];
 
     const timeline = [
         {
             year: '2000',
-            title: 'Fundacion en 2000',
-            description: 'Nuestros inicios en un pequeno local del centro, con el sueno de cambiar la industria.',
+            title: 'Fundación en 2000',
+            description: 'Nuestros inicios en un pequeño local del centro, con el sueño de cambiar la industria.',
             icon: (
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -75,8 +75,8 @@ export default function AboutUs() {
         },
         {
             year: '2023',
-            title: 'Expansion nacional 2023',
-            description: 'Alcance en todo el pais con mas de 15 sucursales operativas.',
+            title: 'Expansión nacional 2023',
+            description: 'Alcance en todo el país con más de 15 sucursales operativas.',
             icon: (
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
@@ -102,11 +102,11 @@ export default function AboutUs() {
                             NUESTRA HISTORIA
                         </span>
                         <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
-                            Mas que propiedades, construimos confianza
+                            Más que propiedades, construimos confianza
                         </h1>
                         <p className="text-lg text-gray-200">
-                            Desde nuestros humildes comienzos hasta convertirnos en lideres del mercado,
-                            nuestra pasion siempre ha sido conectar a las personas con el lugar al que llaman hogar.
+                            Desde nuestros humildes comienzos hasta convertirnos en líderes del mercado,
+                            nuestra pasión siempre ha sido conectar a las personas con el lugar al que llaman hogar.
                         </p>
                     </div>
                 </div>
@@ -132,10 +132,10 @@ export default function AboutUs() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                        Nuestra Mision y Valores
+                        Nuestra Misión y Valores
                     </h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Nos dedicamos a brindar un servicio transparente y de excelencia en cada transaccion,
+                        Nos dedicamos a brindar un servicio transparente y de excelencia en cada transacción,
                         guiados por principios inquebrantables.
                     </p>
                 </div>
