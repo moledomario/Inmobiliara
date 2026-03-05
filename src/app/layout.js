@@ -1,6 +1,4 @@
-
 import "./globals.css";
-
 
 export const metadata = {
   title: "Inmobiliaria",
@@ -9,11 +7,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-      <html>
-    <body>
-      
+    <html lang="es">
+      <body>
+
         {children}
-          </body>
+      </body>
     </html>
   );
 }

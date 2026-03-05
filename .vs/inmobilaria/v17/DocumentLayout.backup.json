@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\somebody\\Desktop\\inmobilaria\\",
+  "WorkspaceRootPath": "C:\\Users\\somebody\\Desktop\\MM\\inmobilaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\somebody\\Desktop\\inmobilaria\\src\\app\\layout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\layout.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\somebody\\Desktop\\inmobilaria\\src\\app\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\page.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\somebody\\Desktop\\inmobilaria\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\somebody\\Desktop\\MM\\inmobilaria\\src\\app\\components\\Footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\Footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "layout.js",
-              "DocumentMoniker": "C:\\Users\\somebody\\Desktop\\inmobilaria\\src\\app\\layout.js",
-              "RelativeDocumentMoniker": "src\\app\\layout.js",
-              "ToolTip": "C:\\Users\\somebody\\Desktop\\inmobilaria\\src\\app\\layout.js",
-              "RelativeToolTip": "src\\app\\layout.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-07T21:41:05.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "page.js",
-              "DocumentMoniker": "C:\\Users\\somebody\\Desktop\\inmobilaria\\src\\app\\page.js",
-              "RelativeDocumentMoniker": "src\\app\\page.js",
-              "ToolTip": "C:\\Users\\somebody\\Desktop\\inmobilaria\\src\\app\\page.js",
-              "RelativeToolTip": "src\\app\\page.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-01-07T21:41:02.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\somebody\\Desktop\\inmobilaria\\package.json",
-              "RelativeDocumentMoniker": "package.json",
-              "ToolTip": "C:\\Users\\somebody\\Desktop\\inmobilaria\\package.json",
-              "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-07T21:38:23.271Z",
+              "Title": "Footer.jsx",
+              "DocumentMoniker": "C:\\Users\\somebody\\Desktop\\MM\\inmobilaria\\src\\app\\components\\Footer.jsx",
+              "RelativeDocumentMoniker": "src\\app\\components\\Footer.jsx",
+              "ToolTip": "C:\\Users\\somebody\\Desktop\\MM\\inmobilaria\\src\\app\\components\\Footer.jsx",
+              "RelativeToolTip": "src\\app\\components\\Footer.jsx",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-15T18:41:59.272Z",
               "EditorCaption": ""
             }
           ]

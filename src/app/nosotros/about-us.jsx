@@ -1,6 +1,7 @@
 'use client'
 
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 export default function AboutUs() {
     const router = useRouter();
@@ -89,10 +90,11 @@ export default function AboutUs() {
         <section id="nosotros" className="bg-gray-50">
             {/* Hero Section */}
             <div className="relative h-[400px] overflow-hidden">
-                <img
+                <Image
                     src="/nosotros-image.jpg"
                     alt="Oficina moderna"
-                    className="w-full h-full object-cover"
+                    className="object-cover"
+                    fill
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/70" />
 

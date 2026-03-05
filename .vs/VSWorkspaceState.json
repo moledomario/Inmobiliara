@@ -3,8 +3,10 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\components"
+    "\\src\\app\\components",
+    "\\src\\app\\data",
+    "\\src\\app\\propiedades"
   ],
-  "SelectedNode": "\\src\\app\\components\\Header.jsx",
+  "SelectedNode": "\\src\\app\\data\\propiedades.js",
   "PreviewInSolutionExplorer": false
 }
